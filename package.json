@@ -1,7 +1,16 @@
 {
   "name": "@day1co/fastpress",
   "version": "0.0.1",
+  "author": "Day1Company",
   "description": "fast and simple static site generator",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/day1co/fastpress.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "main": "lib/index.js",
   "bin": "lib/cli.js",
   "dependencies": {
