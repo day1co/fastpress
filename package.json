@@ -1,0 +1,13 @@
+{
+  "name": "@day1co/fastpress",
+  "version": "0.0.1",
+  "description": "fast and simple static site generator",
+  "main": "lib/index.js",
+  "bin": "lib/cli.js",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "ejs": "^3.1.8",
+    "front-matter": "^4.0.2",
+    "markdown-it": "^13.0.1"
+  }
+}
